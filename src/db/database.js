@@ -1,5 +1,8 @@
 import fs from "node:fs";
 import path from "node:path";
+import Database from "better-sqlite3";
+
+const rootDir = path.resolve(path.join(import.meta.dirname, "..", ".."));
 import { fileURLToPath } from "node:url";
 import Database from "better-sqlite3";
 
